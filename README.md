@@ -8,31 +8,30 @@ Answer the following questions based on your understanding of the installation a
  Questions:
 
  Installation of VS Code:
-   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+1. Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
 
 
    Steps to Download and Install Visual Studio Code
 
 
-1.	Visit the Official Website:
+-	Visit the Official Website:
 Open your preferred web browser.
 Go to the official Visual Studio Code download page: Visual Studio Code.
-2.	Download the Installer:
+-Download the Installer:
 On the homepage, click on the “Download for Windows” button. This should automatically detect your operating system and download the appropriate installer (e.g., VSCodeUserSetup-x64-1.70.0.exe).
-3.	Run the Installer:
+-	Run the Installer:
 Once the download is complete, navigate to your Downloads folder and double-click on the downloaded installer file.
 If prompted by User Account Control (UAC), click “Yes” to allow the installer to make changes to your device.
-4.	Setup Process:
+-	Setup Process:
 The Visual Studio Code Setup wizard will open. Click “Next” to begin the installation process.
 Read and accept the license agreement, then click “Next”.
 Choose the destination folder where you want to install Visual Studio Code (default is usually fine), then click “Next”.
 Select any additional tasks you want the installer to perform (e.g., creating a desktop icon, adding VS Code to the PATH), then click “Next”.
 Click “Install” to begin the installation.
-5.	Complete the Installation:
+-Complete the Installation:
 Once the installation is complete, you can choose to launch Visual Studio Code immediately by checking the “Launch Visual Studio Code” box.
 Click “Finish” to complete the setup.
 If you opted to launch Visual Studio Code right away, it will open. Otherwise, you can open it from the Start menu or desktop shortcut.
-
 
 The prerequisites which might be needed are network connection and operating system.
 
@@ -41,14 +40,12 @@ The prerequisites which might be needed are network connection and operating sys
 
    Initial Configurations and Settings
 
-
-1.	Update VS Code:
+-	Update VS Code:
 Ensure that VS Code is updated to the latest version. You can check for updates via Help.
-2.	User and Workspace Settings:
+-	User and Workspace Settings:
 VS Code allows for extensive customization via user settings and workspace settings.
-3.	Theme and Appearance:
+-	Theme and Appearance:
 Choose a theme that suits your preference – you can choose either dark or light according to your favorite.
-
 
 Extensions you can can install include autorename python extensions, intellisence, html boilerplate,css tailwind,pylance and many others.
 
@@ -56,43 +53,38 @@ Extensions you can can install include autorename python extensions, intellisenc
 3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
 
-
    The main components of the VS Code user interface:
-1. Activity Bar- on the far left side of the window.
+   -Activity Bar- on the far left side of the window.
 Purpose- the Activity Bar provides quick access to various views and functions within VS Code. Each icon represents a different view or activity that you can perform.
 
-2. Side Bar- Directly to the right of the Activity Bar.
+- Side Bar- Directly to the right of the Activity Bar.
 Purpose- the Side Bar displays contextual information and tools related to the selected view from the Activity Bar.
 
-3. Editor Group- The central area of the interface.
+-Editor Group- The central area of the interface.
 Purpose- The Editor Group is where you open and edit your code files. You can have multiple editors open at the same time, arranged in tabs or split view.
 
-4. Status Bar- At the bottom of the window.
+-Status Bar- At the bottom of the window.
 Purpose-The Status Bar displays information about the current state of the editor and workspace. It provides shortcuts and status indicators.
 
 
 4. Command Palette:
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 
-
    The Command Palette in Visual Studio Code is a powerful tool that allows you to access various commands and functions quickly without having to navigate through menus. It provides a quick way to execute tasks, open files, and adjust settings.
-
    Accessing the Command Palette:
-
 Keyboard Shortcut: Press Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (Mac).
-
 
 Common Tasks Performed Using the Command Palette
 Here are some examples of common tasks that can be executed using the Command Palette:
 
 Opening Files and Folders:
 
-> Open File...: Quickly open a file by searching for its name.
-> Open Folder...: Open a folder to start working on a new project.
+Open File...: Quickly open a file by searching for its name.
+Open Folder...: Open a folder to start working on a new project.
 Running Commands:
 
-> Git: Commit All...: Stage all changes and commit them to the repository.
-> Format Document: Format the entire document according to the configured code formatter.
+Git: Commit All...: Stage all changes and commit them to the repository.
+Format Document: Format the entire document according to the configured code formatter.
 Navigating Within Files:
 Menu Navigation: You can also access it by clicking on View > Command Palette.
 
@@ -115,12 +107,8 @@ Debugging: Offer advanced debugging capabilities for various environments and fr
 
 Finding Extensions
 
-
-Extensions View:
-
-Open the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window.
+Extensions View: Open the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window.
 You can also open it by pressing Ctrl+Shift+X. Then click install.
-
 
 examples of extensions for web development include;
 
@@ -190,18 +178,18 @@ Customizing keybindings involves searching for "keyboardShortcut" in the setting
 Setting Up and Starting Debugging
 
 
-1.	Install Required Extensions: Ensure you have the necessary debugging extension installed for your programming language (e.g., Python, JavaScript).
+-Install Required Extensions: Ensure you have the necessary debugging extension installed for your programming language (e.g., Python, JavaScript).
 
 
-2.	Open Your Project: Open VS Code and navigate to your project folder using File > Open Folder.
+-	Open Your Project: Open VS Code and navigate to your project folder using File > Open Folder.
 
 
-3.	Create or Open a Debug Configuration: Click on the Debugging icon in the Activity Bar on the side of the window (or press Ctrl+Shift+D).
+-	Create or Open a Debug Configuration: Click on the Debugging icon in the Activity Bar on the side of the window (or press Ctrl+Shift+D).
 
-4.	Set Breakpoints: Open the file containing your code.
+-	Set Breakpoints: Open the file containing your code.
 
 
-5.	Start Debugging: Press F5 or click the green play button in the Debug view to start debugging.
+-	Start Debugging: Press F5 or click the green play button in the Debug view to start debugging.
 VS Code will launch the program in debugging mode, and execution will pause at the breakpoints you set.
 
 
